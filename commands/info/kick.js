@@ -16,6 +16,5 @@ module.exports = {
         if(!member.kickable) return message.reply("I cannot kick this member!");
         member.kick();
         message.channel.send(`${member} **has been Kicked.**`);
-        member.send("קיבלת קיק, יא נוב חחחח");
     },
 };
