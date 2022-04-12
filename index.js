@@ -13,4 +13,4 @@ client.config = require("./config.json");
 // Initializing the project
 require("./handler")(client);
 
-client.login(process.env.ZEROX);
+client.login(client.config.token);
