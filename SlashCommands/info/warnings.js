@@ -1,4 +1,4 @@
-const warnModel = require("../../models/warnModel");
+/**const warnModel = require("../../models/warnModel");
 const moment = require("moment");
 const { MessageActionRow, MessageButton, MessageEmbed } = require('discord.js');
 
@@ -49,4 +49,4 @@ module.exports = {
             .setFooter({ text: `${client.user.username}`, iconURL: `${client.user.avatarURL({ dynamic: true })}` });
         interaction.followUp({ embeds: [embed], components: [row] });
     },
-};
+};**/

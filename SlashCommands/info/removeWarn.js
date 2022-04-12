@@ -1,4 +1,4 @@
-const warnModel = require("../../models/warnModel");
+/**const warnModel = require("../../models/warnModel");
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
@@ -39,4 +39,4 @@ module.exports = {
 
         interaction.followUp({ embeds: [embed] });
     },
-};
+};**/

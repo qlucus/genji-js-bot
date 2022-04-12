@@ -1,7 +1,7 @@
 const { glob } = require("glob");
 const { promisify } = require("util");
 const { Client } = require("discord.js");
-const mongoose = require("mongoose");
+/*const mongoose = require("mongoose");*/
 
 const globPromise = promisify(glob);
 
@@ -51,8 +51,8 @@ module.exports = async (client) => {
     });
 
     // mongoose
-    const { mongooseConnectionString } = require('../config.json')
+    /**const { mongooseConnectionString } = require('../config.json')
     if (!mongooseConnectionString) return;
 
-    mongoose.connect(mongooseConnectionString).then(() => console.log('Connected to mongodb'));
+    mongoose.connect(mongooseConnectionString).then(() => console.log('Connected to mongodb'));**/
 };
