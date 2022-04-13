@@ -14,7 +14,7 @@ module.exports = {
         const SayMessage = message.content.slice(4).trim();
         const embed = new MessageEmbed()
             .setColor("#FFF700")
-            .setDescription(SayMessage)
+            .setDescription(SayMessage);
         message.channel.send({ embeds: [embed] });
     },
 };
