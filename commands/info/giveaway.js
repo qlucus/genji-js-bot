@@ -28,7 +28,7 @@ module.exports = {
         if (!item) {
             item = "No title"
         }
-        var embed = new Discord.MessageEmbed();
+        var embed = new MessageEmbed();
         embed.setColor(0x3333ff);
         embed.setTitle("New Giveaway !");
         embed.setDescription("**" + item + "**");
