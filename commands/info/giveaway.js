@@ -15,7 +15,7 @@ module.exports = {
      */
     run: async (client, message, args) => {
         const messageArray = message.content.split(" ");
-        if (!message.member.hasPermission(["ADMINISTRATOR"])) return message.channel.send("You don't have enough permissions to start a giveaway !") {
+        if (!message.member.hasPermission(["ADMINISTRATOR"])) return message.channel.send("You don't have enough permissions to start a giveaway !");
         var item = "";
         var time;
         var winnerCount;
@@ -62,6 +62,5 @@ module.exports = {
                 message.channel.send(`🎉 **${winner.toString()}** has won the giveaway **${item}** ! Congratulations ! 🎉`);
             }
         }, ms(time));
-    },
     },
 };
