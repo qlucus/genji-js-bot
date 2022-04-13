@@ -37,7 +37,7 @@ module.exports = {
             long: true
         }), true);
         embed.setFooter("React to this message with 🎉 to participate !");
-        var embedSent = await message.channel.send(embed);
+        var embedSent = await message.channel.send({ embeds: [embed] });
         embedSent.react("🎉");
 
         setTimeout(async () => {
