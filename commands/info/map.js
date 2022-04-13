@@ -12,7 +12,7 @@ module.exports = {
     run: async (client, message, args) => {
         const embed = new MessageEmbed()
             .setColor("#00ceff")
-            .setTitle("SlowCity | Map")
+            .setAuthor({name: "SlowCity | Map", iconURL: "https://media.discordapp.net/attachments/738901088526401537/957932363441131530/Screenshot_25.png"})
             .setDescription("זוהי המפה שנבנתה על ידי flayer\nהמפה עם זכויות יוצרים, כל העתקה תענש בחומרה!\nלעוד עדכונים כנסו לחדר עדכונים");
         message.channel.send({ embeds: [embed] });
     },
