@@ -13,6 +13,7 @@ module.exports = {
         message.delete();
         const SayMessage = message.content.slice(4).trim();
         const embed = new MessageEmbed()
+            .setColor("#FFF700")
             .setDescription(SayMessage)
         message.channel.send({ embeds: [embed] });
     },
