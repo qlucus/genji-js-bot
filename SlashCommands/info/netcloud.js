@@ -11,8 +11,8 @@ module.exports = {
             .addField({ name: "Who are you?", value: "We are a company.", inline: false })
             .addField({ name: "What the bot can do?", value: "undefind", inline: false })
             .addField({ name: "When the company have started?", value: "April 11, 2022", inline: false })
-            .addField({ name: "What is your goal?", value: "Our goal is reaching 100 servers.", inline: false })
+            .addField({ name: "What is your goal?", value: "Our goal is reaching 100 servers.", inline: false });
 
-        interaction.followUp({ embeds: [embed] })
+        interaction.followUp({ embeds: [embed] });
     },
 }; 
