@@ -45,7 +45,7 @@ module.exports = async (client) => {
         await client.guilds.cache.get("963616591906500638").commands.set(arrayOfSlashCommands);
 
         // Register for all the guilds the bot is in
-        await client.application.commands.set(arrayOfSlashCommands);
+        //await client.application.commands.set(arrayOfSlashCommands);
     });
 
     // mongoose
