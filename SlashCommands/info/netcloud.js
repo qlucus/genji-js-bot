@@ -8,6 +8,7 @@ module.exports = {
             .setColor("#fff700")
             .setAuthor({ name: "FAQ: About NetCloud", iconURL: `https://media.discordapp.net/attachments/961883143411998752/964291071100198992/752SHABOTA.png?width=676&height=676` })
             .setFooter({ text: `NetCloud Company 🤖` })
+            .setThumbnail("https://media.discordapp.net/attachments/961883143411998752/964291071100198992/752SHABOTA.png?width=676&height=676")
             .addFields({ name: "Who are you?", value: "We are a company.", inline: false })
             .addFields({ name: "What the bot can do?", value: "undefind", inline: false })
             .addFields({ name: "When the company have started?", value: "April 11, 2022", inline: false })
