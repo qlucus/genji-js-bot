@@ -4,8 +4,6 @@ const { MessageEmbed } = require('discord.js')
 module.exports = {
     name : 'giveaway',
     run : async(client, message, args) => {
-        if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.channel.send('You dont have manage messages permission.')
-        
         const channel = message.mentions.channels.first()
         if(!channel) return message.channel.send('Please specify a channel')
 
