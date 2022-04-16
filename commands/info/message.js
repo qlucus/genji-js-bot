@@ -13,7 +13,6 @@ module.exports = {
         if (message.channelId === "964290303672614972") {
             const anonymous = message.content.slice(4).trim();
             message.delete();
-            client.user.username("Anonymous")
             message.channel.send(anonymous);
         } else {
             message.channel.send("You have to type it in the channel `TEST`");
