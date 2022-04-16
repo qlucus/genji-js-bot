@@ -14,6 +14,8 @@ module.exports = {
             const anonymous = (' ').join(); 
             message.delete();
             message.channel.send(`${anonymous}`);
+        } else {
+            message.channel.send("You have to type it in the channel `TEST`");
         }
     },
 };
