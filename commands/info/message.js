@@ -10,12 +10,16 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
-        if (message.channelId === "964290303672614972") {
+        if (message.channelId === "956852909520351232") {
             const anonymous = message.content.slice(4).trim();
             message.delete();
             message.channel.send(anonymous);
         } else {
-            message.channel.send("You have to type it in the channel `TEST`");
+            message.delete();
+            message.channel.send("You have to type it in the channel `『😈』צאט-אנונימי`")
+            .then(message => {
+                setTimeout(() => message.delete(), 5000)
+              });
         }
     },
 };
