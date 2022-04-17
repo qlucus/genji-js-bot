@@ -16,7 +16,7 @@ module.exports = {
             message.channel.send(anonymous);
         } else {
             message.delete();
-            message.channel.send("You have to type it in the channel `『😈』צאט-אנונימי`")
+            message.channel.send("You have to type it in the channel: `『😈』צאט-אנונימי`")
             .then(message => {
                 setTimeout(() => message.delete(), 5000)
               });
