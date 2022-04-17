@@ -10,7 +10,7 @@ module.exports = {
      * @param {String[]} args
      */
     run: async (client, message, args) => {
-        if (message.channelId === "956852909520351232") {
+        if (message.channelId === "964290303672614972") {
             const anonymous = message.content.slice(4).trim();
             message.delete();
             message.channel.send(anonymous);
